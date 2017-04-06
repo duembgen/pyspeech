@@ -14,9 +14,12 @@ How to install festival for windows:
 http://www.eguidedog.net/doc/doc_build_win_festival.php
 (pre-built)
 
-ubuntu: 
+ubuntu:
 sudo apt-get install festival
 https://help.ubuntu.com/community/TextToSpeech
+
+
 python-imaging or python3-imaging
+
 sudo apt-get install tesseract-ocr
 sudo pip install pytesseract
