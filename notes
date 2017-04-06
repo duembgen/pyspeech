@@ -1,0 +1,22 @@
+http://www.ling.gu.se/~lager/python_exercises.html
+
+http://stackoverflow.com/questions/37745519/use-pytesseract-to-recognize-text-from-image
+
+## Text classification programs
+How I made run pytesseract:
+- change source code (for line in lines... str(line) return lines)
+- get train data and move to corresponding folder
+wget https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
+- export TESSDATA_PREFIX='/usr/share/'
+
+## Text to speech programs
+How to install festival for windows:
+http://www.eguidedog.net/doc/doc_build_win_festival.php
+(pre-built)
+
+ubuntu: 
+sudo apt-get install festival
+https://help.ubuntu.com/community/TextToSpeech
+python-imaging or python3-imaging
+sudo apt-get install tesseract-ocr
+sudo pip install pytesseract
